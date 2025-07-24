@@ -122,3 +122,51 @@ p {
     font-size: 12px;
     color: #555;
 }
+
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
+}
+
+/* Title inside navbar */
+.navbar h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+/* Style for nav sections (about, projects, skills) */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Each nav item spacing */
+.navbar-item {
+  margin-left: 10px;
+}
+
+/* Button styling */
+.navbar .btn {
+  font-size: 1rem;
+  border-radius: 25px;
+  padding: 0.4rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar .btn:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
